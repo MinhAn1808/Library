@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body onload="document.getElementById('loader').style.display = 'block'" onmouseover="document.getElementById('loader').style.display = 'none'">
+    <nav>
+        <ul>
+            <li>
+                <a href="#home" style="color: black;">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="screen">
+            <div id="screen-img">
+
+            </div>
+            <div id="screen-info">
+
+            </div>
+        </div>
+        <div class="menu" id="home">
+            <div class="menu-rows">
+                <div class="menu-info" onmouseover="displayCSD()" onmousemove="displayCSDInfo()" onmouseout="mouseOut()">
+                    <img class="menu-img" src="img/CSD.jpg" alt="unavailable">
+                    <div class="menu-details">
+                        <div class="details-module">
+                            <h2>Data Structures & Algorithms</h2>
+                        </div>
+                        <button class="inbox" type="button"><a href="https://docs.google.com/document/d/1xYO676xO264mYlgEdEDvFdrN2e1XkNZM_1CiJWZx-sE/edit?usp=sharing" target="_blank">Access</a></button>
+                    </div>
+                </div>
+                <div class="menu-info" onmouseover="displayDBI()" onmousemove="displayDBIInfo()" onmouseleave="mouseOut()">
+                    <img class="menu-img" src="img/DBI.jpg" alt="unavailable">
+                    <div class="menu-details">
+                        <div class="details-module">
+                            <h2>Database Systerm</h2>
+                        </div>
+                        <button class="inbox" type="button"><a
+                                href="https://docs.google.com/document/d/1-ZdexUh8fmCdco1qiuWcNE_RyOb-zaV0RZCwMoFTRRk/edit?tab=t.0" target="_blank">Access</a></button>
+                    </div>
+                </div>
+                <div class="menu-info" onmouseover="displayMAD()" onmousemove="displayMADInfo()" onmouseleave="mouseOut()">
+                    <img class="menu-img" src="img/Math.avif" alt="unavailable">
+                    <div class="menu-details">
+                        <div class="details-module">
+                            <h2>Mathematics</h2>
+                        </div>
+                        <button class="inbox" type="button"><a href="https://docs.google.com/document/d/1dTmTO1fSAsjanlP61A2f0cuROxLtBwtRROaVaPVQK0c/edit?tab=t.0" target="_blank">Access</a></button>
+                    </div>
+                </div>
+                <div class="menu-info" onmouseover="displayJS()" onmousemove="displayJSInfo()" onmouseout="mouseOut()">
+                    <img class="menu-img" src="img/javascript.jpg" alt="unavailable">
+                    <div class="menu-details">
+                        <div class="details-module">
+                            <h2>JavaScript</h2>
+                            
+                        </div>
+                        <button class="inbox" type="button"><a href="https://docs.google.com/document/d/1Isncj9dq_JeNDngYkKtUYgKokcxV-qyB2A_KwHc6UF4/edit?tab=t.0" target="_blank">Access</a></button>
+                    </div>
+                </div>
+                <div class="menu-info" onmouseover="displayCSS()" onmousemove="displayCSSInfo()" onmouseleave="mouseOut()">
+                    <img class="menu-img" src="img/css.png" alt="unavailable">
+                    <div class="menu-details">
+                        <div class="details-module">
+                            <h3>Cascarding Style Sheets</h3>
+
+                        </div>
+                        <button class="inbox" type="button"><a href="https://docs.google.com/document/d/1Isncj9dq_JeNDngYkKtUYgKokcxV-qyB2A_KwHc6UF4/edit?tab=t.0" target="_blank">Access</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="loader"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

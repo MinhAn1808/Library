@@ -1,0 +1,132 @@
+body{
+    background-color: #5a2b61;
+}
+nav{
+    background-color: #f7f3f2;
+    display: block;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    box-shadow: 3px 3px 3px 3px;
+    margin: 0;
+}
+main{
+    position: relative;
+    top: 70px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+    position: relative;
+}
+nav li:hover{
+    background-color: #cccbcb;
+    
+}
+.menu{
+    width: 100%;
+}
+.menu-info{
+    background-color: #f2ccf2;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 550px;
+
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    transition: ease-in-out .5s;
+    opacity: .5;
+}
+.menu-info:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.menu-img{
+    width: 80%;
+    margin: 35px;
+
+    height: 310px;
+}
+.menu-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 10px;
+}
+.details-module{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.menu-rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.inbox{
+    position: relative;
+    color: #f7f2f7;
+    font-size: medium;
+    background-color: red;
+    width: 23%;
+    height: 80px;
+    left: 75%;
+    border-radius: 10px 10px 10px 10px ;
+    font-size: large;
+
+}
+a{
+    color: #f7f2f7;
+    text-decoration: double;
+}
+#screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 400px;
+    width: 100%;
+}
+#screen-img{
+    position: relative;
+    width: 15%;
+    height: 300px;
+    background-size:contain;
+}
+#screen-info{
+    position: relative;
+    width: 50%;
+    height: 400px;
+
+}
+#loader{
+    display: none;
+    border: 5px solid lightgrey;
+    border-radius: 50%;
+    border-top: 1px solid greenyellow;
+    border-left: 3px solid red;
+    border-bottom: 5px solid blue;
+    border-right: 7px solid pink;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation: spin .8s infinite;
+}
+@keyframes spin{
+    0%{ transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
