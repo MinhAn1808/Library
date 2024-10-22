@@ -1,6 +1,6 @@
 function displayCSD() {
     let screen = document.getElementById("screen-img");
-    screen.style.backgroundImage = "url(../img/CSD.jpg)";
+    screen.style.backgroundImage = "url('img/CSD.jpg')";
     screen.style.display = "block"
 
 }
@@ -18,7 +18,7 @@ function mouseOut() {
 }
 function displayDBI() {
     let screen = document.getElementById("screen-img");
-       screen.style.backgroundImage = "url('../img/DBI.jpg')"
+       screen.style.backgroundImage = "url('img/DBI.jpg')"
        screen.style.display = "block"
 }
 function displayDBIInfo(){
@@ -31,7 +31,7 @@ function displayDBIInfo(){
 }
 function displayMAD() {
     let screen = document.getElementById("screen-img");
-       screen.style.backgroundImage = "url('../img/Math.avif')"
+       screen.style.backgroundImage = "url('img/Math.avif')"
        screen.style.display = "block"
 }
 function displayMADInfo(){
@@ -44,7 +44,7 @@ function displayMADInfo(){
 }
 function displayJS() {
     let screen = document.getElementById("screen-img");
-       screen.style.backgroundImage = "url('../img/javascript.jpg')"
+       screen.style.backgroundImage = "url('img/javascript.jpg')"
        screen.style.display = "block"
 }
 function displayJSInfo(){
@@ -57,7 +57,7 @@ function displayJSInfo(){
 }
 function displayCSS() {
     let screen = document.getElementById("screen-img");
-       screen.style.backgroundImage = "url('../img/css.png')"
+       screen.style.backgroundImage = "url('img/css.png')"
        screen.style.display = "block"
 }
 function displayCSSInfo(){
